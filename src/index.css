@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 30ch;
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 0.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.plants ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+  gap: 1ch;
+}
+
+.plant {
+  border: 1px solid #eee;
+  padding: 1rem;
+  display: grid;
+  gap: 1ch;
+}
+
+.plant figure {
+  font-size: 5rem;
+  text-align: center;
+}
+.cart-item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item {
+  padding: 0.25rem;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.cart-item-quantity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

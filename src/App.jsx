@@ -2,6 +2,7 @@ import { useState } from "react";
 import PLANTS from "./data";
 import Plants from "./components/plants";
 import Cart from "./components/cart";
+import "./App.css";
 
 export default function App() {
   const [cart, setCart] = useState([]);

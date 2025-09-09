@@ -1,6 +1,6 @@
 function Cart({ cart, addCart, removeCart }) {
   return (
-    <>
+    <section className="cart-item, cart-item-quantity">
       <h2>Cart</h2>
 
       {cart.length === 0 ? (
@@ -28,7 +28,7 @@ function Cart({ cart, addCart, removeCart }) {
           })}
         </>
       )}
-    </>
+    </section>
   );
 }
 

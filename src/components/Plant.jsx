@@ -1,6 +1,6 @@
 export default function plant({ plant, addCart }) {
   return (
-    <div>
+    <div className="plant">
       <b>{plant.name}</b> <b>{plant.image}</b>{" "}
       <button onClick={() => addCart(plant)}>Add to cart</button>
     </div>
